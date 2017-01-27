@@ -13,8 +13,8 @@
 * UI should be user-friendly 
 
 ####Note:
-*You should use Java in Android application development evironemnt which is installed in Flynn Test VM.
-* Android studio with Android SDK is intalled but if you are a fan of Eclipse or no IDE tools, just make sure this test result should come out with an APK file and source code.
+*You should use Java in Android application development environment which is installed in Flynn Test VM.
+* Android studio with Android SDK is installed but if you are a fan of Eclipse or no IDE tools, just make sure this test result should come out with an APK file and source code.
 
 ####It is a plus if any of the following items are covered:
 
@@ -24,5 +24,5 @@
 4. Animation, drawings are included.
 5. Package management tools and at least one 3rd party package are being used.
 6. Github or SVN or any other source control tool are being used.
-7. Performance, security, memory usage are considered while implementing the app.
+7. Performance, security and memory usage are considered while implementing the app.
 
