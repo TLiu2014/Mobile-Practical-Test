@@ -9,11 +9,11 @@
 ####Implement your idea and make sure the following key features are coved:
 * Consume HTTP request, upload your data through HTTP request.
 * Display data retrieved from services.
-* At least three pages (activities, view controllers) on UI
+* At least three pages (Android Activities or iOS ViewControllers) on UI
 * UI should be user-friendly 
 
 ####Note:
-1. Choose your favorite programming language and tools.
+1. Choose your any programming language and tools you like.
 * It can be Java with Android studio or Eclipse, or no IDE tools.
 * It can be Swift (2.x, 3.0) or Objective – C with XCode.
 * It can be C# with Xamarin Studio
@@ -28,3 +28,5 @@
 5. Package management tools and at least one 3rd party package are being used.
 6. Github or SVN or any other source control tool are being used.
 7. Performance, security, memory usage are considered while implementing the app.
+
+####If your pratical test will be done on Flynn Pratical Test VM, only Android Development Environment is installed.
