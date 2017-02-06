@@ -27,7 +27,7 @@ public class PreActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pre);
-        //Save first 10 images to local storage
+        //Save first 20 images to local storage
         for (int i = 0; i < size; i++){
             new JsonTask().execute(url+(i+1));
         }

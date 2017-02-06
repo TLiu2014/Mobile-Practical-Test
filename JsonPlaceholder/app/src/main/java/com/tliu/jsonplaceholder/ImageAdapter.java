@@ -1,7 +1,6 @@
 package com.tliu.jsonplaceholder;
 
 import android.content.Context;
-import android.os.AsyncTask;
 import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
@@ -51,10 +50,9 @@ public class ImageAdapter extends BaseAdapter {
         Log.d("ImageAdapter", "getView start.");
         ImageView imageView;
 
-        if (convertView == null) {  // if it's not recycled, initialize some attributes
+        if (convertView == null) {
             imageView = new ImageView(mContext);
             imageView.setLayoutParams(new GridView.LayoutParams(150, 150));
-            //imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
             imageView.setPadding(4, 4, 4, 4);
         }
         else {

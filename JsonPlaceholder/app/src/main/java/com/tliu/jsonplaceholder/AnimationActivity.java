@@ -12,7 +12,6 @@ import android.view.animation.AnimationSet;
 import android.view.animation.DecelerateInterpolator;
 import android.widget.AdapterView;
 import android.widget.GridView;
-import android.widget.Toast;
 
 /**
  * Created by tianweiliu on 2017-02-05.
@@ -31,6 +30,7 @@ public class AnimationActivity extends AppCompatActivity {
         gridview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             public void onItemClick(AdapterView<?> parent, View v,
                                     int position, long id) {
+                //Add fade in and fade out animation
                 Animation fadeIn = new AlphaAnimation(0, 1);
                 fadeIn.setInterpolator(new DecelerateInterpolator()); //add this
                 fadeIn.setDuration(1000);
